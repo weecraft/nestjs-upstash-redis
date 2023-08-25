@@ -1,0 +1,52 @@
+{
+  "name": "nestjs-upstash-redis",
+  "version": "1.0.0",
+  "description": "NestJs wrapper for upstash redis",
+  "author": "Nyoman Sunima <nyomansunima@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "nestjs",
+    "redis",
+    "upstash",
+    "module",
+    "upstash redis"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.0.5",
+    "@upstash/redis": "^1.22.0",
+    "rxjs": "^7.8.1"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^10.0.5",
+    "@types/node": "^20.4.2",
+    "rxjs": "^7.8.1",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "@typescript-eslint/eslint-plugin": "^6.4.1",
+    "@typescript-eslint/parser": "^6.4.1",
+    "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.2",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nyomansunima/nestjs-upstash-redis"
+  },
+  "bugs": "https://github.com/nyomansunima/nestjs-upstash-redis",
+  "publishConfig": {
+    "access": "public"
+  }
+}
